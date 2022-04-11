@@ -1,0 +1,20 @@
+{
+  "name": "pixelpusher",
+  "version": "0.1.0",
+  "description": "Simple Pixel-art Designer",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src",
+    "serve": "light-server -s ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarcher/pixelpusher.git"
+  },
+  "author": "Anddy A",
+  "license": "ISC",
+  "homepage": "https://github.com/adarcher/pixelpusher#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
